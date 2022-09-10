@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ExtensionModel>
+    <!-- Register with Visual Studio for Mac -->
+    <Runtime>
+        <Import assembly="ExamplePad.dll" />
+    </Runtime>
+    <Extension path="/MonoDevelop/Ide/Pads">
+        <Pad id="ExamplePad.MyFirstPad" defaultPlacement="Bottom" _label="My First Pad" icon="md-project" class="ExamplePad.Class1" />
+    </Extension>
+</ExtensionModel>
+
